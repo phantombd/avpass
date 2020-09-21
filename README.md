@@ -16,6 +16,25 @@ DISCLAIMER
 All the code provided on this repository is for educational/research purposes only. Any actions and/or activities related to the material contained within this repository is solely your responsibility. The misuse of the code in this repository can result in criminal charges brought against the persons in question. The authors and SSLab group will not be held responsible in the event any criminal charges be brought against any individuals misusing the code in this repository to break the law.
 (Disclaimer taken from: [here](http://learnhacking.in/disclaimer.html))
 
+Installation
+
+Download the repository from github
+
+git clone https://github.com/sslab-gatech/avpass
+
+Run the installer with the command
+
+./install-dep.sh
+
+Using
+
+Next, we need a generated build of a virus for Android. This could be, for example, the RAT from AhMyth. For basic disguise, you just need to write
+Also do not forget that credits goes to trojans telegram group
+
+python gen_disguise.py -i <file name> individual
+
+The generated apk file is not detected by most antiviruses (perhaps one), and its system requirements are hidden from the user during installation.
+
 
 DEMO
 ----
